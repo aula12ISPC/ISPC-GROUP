@@ -8,3 +8,4 @@ Las 6 habilidades que debe tener un ·Product Owner· para desempeñar su labor 
 4. Mejoras en el producto para satisfacer al cliente.
 5. Realizar investigaciones de mercado para conocer las necesidades del cliente.
 6. Comunicación interna y externa sobre los avances del proyecto.
+
