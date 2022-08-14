@@ -26,6 +26,7 @@ Fecha date not null,
 Perro int4 not null
 );
 
+-- Creando llaves foráneas
 alter table Perro add constraint fk_Dueno_Perro
 foreign key(DNI_dueno)
 references Dueno(DNI);
@@ -33,6 +34,7 @@ references Dueno(DNI);
 alter table Historial add constraint fk_Perro_Historial
 foreign key(Perro)
 references Perro(ID_Perro);
+--
 
 -- Punto 2: Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
 insert into Dueno (DNI, Nombre, Apellido, Telefono, Direccion)
