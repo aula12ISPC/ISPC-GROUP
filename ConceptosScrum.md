@@ -7,32 +7,31 @@ No está restringido a proyectos de software solamente.
 Su visión es opuesta a la propuesta por la metodología en cascada.
 
 # SPRINT
-El Sprint es un período de corta duración que debe finalizar con un prototipo operativo o producto parcialmente entregable.
+El **Sprint** es un período de corta duración que debe finalizar con un prototipo operativo o producto parcialmente entregable.
 
-Las ceremonias ágiles de Scrum, a veces también llamadas “eventos Scrum” son reuniones que tienen lugar en las iteraciones o Sprints contemplados dentro de la metodología Scrum, y son una parte importante del progreso de cualquier proyectoCeremonias que se realizan a lo largo del proyecto:
+Las ceremonias ágiles de Scrum, a veces también llamadas *“eventos Scrum”¨* son reuniones que tienen lugar en las iteraciones o Sprints contemplados dentro de la metodología Scrum, y son una parte importante del progreso de cualquier proyecto. Las ceremonias que se realizan a lo largo del proyecto son:
 
-- Sprint Planning Meeting
+- `Sprint Planning Meeting`
 
-- Daily Scrum Meeting
+- `Daily Scrum Meeting`
 
-- Sprint Review Meeting
+- `Sprint Review Meeting`
 
-- Sprint Retrospective Meeting
+- `Sprint Retrospective Meeting`
 
-### Los artefactos son todos los elementos que te garantizan la transparencia y el registro de la información fundamental del proceso de Scrum.
+#### Los artefactos son todos los elementos que te garantizan la transparencia y el registro de la información fundamental del proceso de Scrum.
 
 # ROLES
-Un equipo Scrum suele estar compuesto por grupos de trabajo de entre 3 a 9 miembros del equipo de desarrollo, más el Scrum Master y el Product Owner
-- Product Owner
-    Las 6 habilidades que debe tener un ·Product Owner· para desempeñar su labor son:
+Un *equipo Scrum* suele estar compuesto por grupos de trabajo de entre 3 a 9 miembros del equipo de desarrollo, más el Scrum Master y el Product Owner
+- **Product Owner**: Las 6 habilidades que debe tener un ·Product Owner· para desempeñar su labor son:
     1. Planificación de tareas derivadas del desarrollo del producto.
     2. Uso de metodologías ágiles para el desarrollo eficiente del producto.
     3. Toma de decisiones sobre funcionalidades y/o características del producto.
     4. Mejoras en el producto para satisfacer al cliente.
     5. Realizar investigaciones de mercado para conocer las necesidades del cliente.
     6. Comunicación interna y externa sobre los avances del proyecto.
-- Scrum Master
-- El equipo de desarrollo o 'Team Members'.
+- **Scrum Master**
+- El equipo de desarrollo o **'Team Members'**.
 
 # GIT
 

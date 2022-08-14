@@ -3,7 +3,7 @@ create database peluqueria_canina;
 use peluqueria_canina;
 
 create table Dueno (
-DNI int4 not null primary key,
+DNI int4 not null primary key auto_increment,
 Nombre varchar(80) not null,
 Apellido varchar(80) not null,
 Telefono varchar(80) not null,
@@ -12,7 +12,7 @@ Direccion varchar(80) not null
 
 -- Punto 1: Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
 create table Perro (
-ID_Perro int4 not null primary key,
+ID_Perro int4 not null primary key auto_increment,
 Nombre varchar(80) not null,
 Fecha_nac date not null, 
 Sexo varchar(20) not null,
@@ -21,7 +21,7 @@ DNI_dueno int4 not null
 --
 
 create table Historial (
-ID_Historial int4 not null primary key,
+ID_Historial int4 not null primary key auto_increment,
 Fecha date not null,
 Perro int4 not null
 );
@@ -49,6 +49,6 @@ values (1, "2004-08-08", 1);
 
 -- Punto 10: Vaciar la tabla historial y resetear el contador del campo ID.
 delete from Historial;
-alter table Historial AUTO_INCREMENT=0;
+alter table Historial auto_increment = 1;
 --
 
