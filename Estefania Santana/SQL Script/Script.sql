@@ -49,6 +49,6 @@ values (1, "2004-08-08", 1);
 
 -- Punto 10: Vaciar la tabla historial y resetear el contador del campo ID.
 delete from Historial;
-alter table Historial AUTO_INCREMENT=0;
+alter table Historial AUTO_INCREMENT=1;
 --
 
